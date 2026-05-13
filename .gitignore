@@ -1,0 +1,12 @@
+venv/
+.venv-*
+env/
+.env
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+audit_360_sept_tools.csv
+*.pem
+.DS_Store
+# IDE
+.vscode/

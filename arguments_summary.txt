@@ -1,0 +1,30 @@
+=== ChatGPT (GPT-4o) ===
+- Type: Pour | Prompt: Quels sont les meilleurs arguments pour convaincre un professionnel d'acheter du matériel Sept Tools ?
+  Synthèse: Sept Tools est reconnu pour sa qualité, durabilité et innovation dans les outils.
+- Type: Contre | Prompt: Quels sont les freins ou arguments contre l'adoption des solutions Sept Tools ?
+  Synthèse: Les solutions Sept Tools rencontrent des freins liés au coût, à la complexité et à l'intégration.
+- Type: Pour | Prompt: Lister 3 avantages techniques objectifs de Sept Tools.
+  Synthèse: Sept Tools améliore l'efficacité et la qualité des développements logiciels grâce à ses outils.
+- Type: Contre | Prompt: Identifier 3 freins objectifs à Sept Tools.
+  Synthèse: Les freins à l'efficacité des Sept Tools incluent formation, qualité des données et résistance.
+
+=== Gemini (Flash) ===
+- Type: Pour | Prompt: Quels sont les meilleurs arguments pour convaincre un professionnel d'acheter du matériel Sept Tools ?
+  Synthèse: Les outils Sept Tools améliorent la performance et la productivité des professionnels.
+- Type: Contre | Prompt: Quels sont les freins ou arguments contre l'adoption des solutions Sept Tools ?
+  Synthèse: Le terme "Sept Tools" est générique et peut désigner plusieurs concepts différents.
+- Type: Pour | Prompt: Lister 3 avantages techniques objectifs de Sept Tools.
+  Synthèse: Sept Tools optimise le développement logiciel avec automatisation et sécurité intégrée.
+- Type: Contre | Prompt: Identifier 3 freins objectifs à Sept Tools.
+  Synthèse: Sept Tools nécessite une relecture humaine pour garantir la qualité du contenu généré.
+
+=== Perplexity (RAG) ===
+- Type: Pour | Prompt: Quels sont les meilleurs arguments pour convaincre un professionnel d'acheter du matériel Sept Tools ?
+  Synthèse: Aucune information disponible sur Sept Tools pour évaluer ses produits.
+- Type: Contre | Prompt: Quels sont les freins ou arguments contre l'adoption des solutions Sept Tools ?
+  Synthèse: Pas d'arguments critiques sur Sept Tools, seulement des informations promotionnelles.
+- Type: Pour | Prompt: Lister 3 avantages techniques objectifs de Sept Tools.
+  Synthèse: Sept Tools propose des outils de ponçage professionnels innovants et ergonomiques.
+- Type: Contre | Prompt: Identifier 3 freins objectifs à Sept Tools.
+  Synthèse: Aucune information sur les freins objectifs de Sept Tools n'est disponible.
+

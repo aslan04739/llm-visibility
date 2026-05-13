@@ -1,0 +1,18 @@
+=== ChatGPT (GPT-4o) ===
+- Axe: Brand - Faiblesses | Score: -0.5
+  Synthèse: Sept Tools doit améliorer sa gamme, innovation, qualité et marketing pour être compétitif.
+- Axe: Brand - Arguments Contre | Score: -0.5
+  Synthèse: Les solutions Sept Tools rencontrent des freins liés au coût, à la complexité et à l'intégration.
+
+=== Gemini (Flash) ===
+- Axe: Brand - Faiblesses | Score: -0.5
+  Synthèse: Sept Tools souffre d'un manque de notoriété et d'une gamme de produits limitée.
+- Axe: Brand - Rabotage | Score: -0.5
+  Synthèse: Sept Tools est moins reconnu que des marques leaders, suscitant scepticisme et défi de notoriété.
+
+=== Perplexity (RAG) ===
+- Axe: Brand - Arguments Pour | Score: -0.8
+  Synthèse: Aucune information disponible sur Sept Tools pour évaluer ses produits.
+- Axe: Brand - Faiblesses | Score: 0.0
+  Synthèse: Sept Tools est une marque d'outils de bijouterie sans critiques notables.
+
