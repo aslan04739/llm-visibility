@@ -1,6 +1,5 @@
 import streamlit as st
 import json
-import pandas as pd
 from llm_audit import get_default_prompts, run_granular_audit, generate_visuals_return_figs
 
 st.set_page_config(page_title="Audit de Visibilité LLM", layout="wide")

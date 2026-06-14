@@ -1,10 +1,7 @@
+from __future__ import annotations
+
 import time
 import textwrap
-import requests
-import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
 from math import pi
 
 try:
@@ -69,6 +66,7 @@ def query_gemini(prompt: str):
 def query_perplexity(prompt: str, perplexity_key: str = None, retries: int = 3):
     if not perplexity_key:
         return "Erreur Perplexity : clé API manquante"
+    import requests
     url = "https://api.perplexity.ai/chat/completions"
     headers = {"Authorization": f"Bearer {perplexity_key}", "Content-Type": "application/json"}
     payload = {"model": "sonar", "messages": [{"role": "user", "content": prompt}], "temperature": 0.2}
@@ -109,6 +107,7 @@ def run_granular_audit(prompts: dict, brand: str = 'la marque', openai_key: str 
     """Run the audit: returns a pandas DataFrame with results.
     prompts: dict of {name: prompt}
     """
+    import pandas as pd
     setup_clients(openai_key=openai_key, gemini_key=gemini_key)
     engines = {"ChatGPT (GPT-4o)": query_openai, "Gemini (Flash)": query_gemini, "Perplexity (RAG)": lambda p: query_perplexity(p, perplexity_key)}
     data = []
@@ -142,6 +141,10 @@ def generate_visuals_return_figs(df: pd.DataFrame, target_brand: str = 'la marqu
     """Generate matplotlib figures and return them in a dict.
     Does not save files by default.
     """
+    import matplotlib.pyplot as plt
+    import pandas as pd
+    import seaborn as sns
+
     # Wrap texts to avoid overlapping
     df['Axe Analysé'] = df['Axe Analysé'].apply(lambda x: textwrap.fill(str(x), width=30))
     sns.set_theme(style="whitegrid", context="talk")
